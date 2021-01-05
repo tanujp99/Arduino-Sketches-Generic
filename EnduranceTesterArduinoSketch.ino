@@ -65,7 +65,7 @@ else                        //if i counter has reset, rest the mcu for a while m
     Serial.print(" minutes(whole) i.e.   ");
     Serial.print(millis()/3600000);                   
     Serial.println(" hours(whole)    --------");       //please hook me up on a millis to HH:MM:SS:mSmS formatter :( {no libraries/RTCs please}
-    delay(4294965295); //stop the mcu for Abouuut 49.7 days 
+    delay(4294965295); //stop the mcu after Abouuut 49.7 days 
 	delay(25034705);   //add 0.3 days and round the wait time to 50 days ¯\_(ツ)_/¯
     }
 }
